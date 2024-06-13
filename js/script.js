@@ -160,9 +160,6 @@ document.addEventListener('DOMContentLoaded', function () {
         menu.classList.toggle('show');
     });
 
-
-
-
     
         setTimeout(function () {
             var preloader = document.getElementById("preloader");
