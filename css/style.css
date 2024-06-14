@@ -462,10 +462,12 @@ h3 {
     margin-top: 10px;
     cursor: pointer;
     background-color: transparent;
-        transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
 }
 
-.light-button:hover, .light-button:hover p, .light-button:hover svg path {
+.light-button:hover,
+.light-button:hover p,
+.light-button:hover svg path {
     background-color: #5BC8AF;
     color: white;
     fill: white;
@@ -1057,6 +1059,11 @@ footer p {
         padding: 20px 24px;
     }
 
+    .text-content .qoute-icon {
+        position: absolute;
+        top: 0px;
+        right: 30px;
+    }
 
     .navbar {
         flex-wrap: wrap;
