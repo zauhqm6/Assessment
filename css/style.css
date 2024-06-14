@@ -10,8 +10,12 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
 }
 
 :root {
@@ -458,6 +462,14 @@ body {
     margin-top: 10px;
     cursor: pointer;
     background-color: transparent;
+        transition: 0.1s ease-in;
+}
+
+.light-button:hover, .light-button:hover p, .light-button:hover svg path {
+    background-color: #5BC8AF;
+    color: white;
+    fill: white;
+    transition: 0.1s ease-in;
 }
 
 .slider-box {
